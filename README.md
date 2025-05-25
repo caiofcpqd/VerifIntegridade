@@ -1,12 +1,12 @@
-# Análise de integridade da memoria
+# Análise de Integridade da Memória
 
-Com minhas experiências na área da engenharia reversa, percebi que muitas funções (como de autenticação, segurança) são fácilmente ignoradas com apenas um JMP, RET, ou NOP.
-Então decidi desenvolver um projeto que consiste em um monitoramente de algumas regiões específica da memória com o objetivo de detectar alterações usando memcmp e memcpy.
+Com base na minha experiência na área de engenharia reversa, percebi que muitas funções críticas, como autenticação e segurança, podem ser facilmente contornadas com instruções simples como JMP, RET ou NOP. 
+Por isso, decidi desenvolver este projeto, que monitora regiões específicas da memória para detectar alterações usando as funções memcmp e memcpy.
 
-Obs: Este projeto pode conter falhas, pois foi desenvolvido apenas para adquirir experiências.
+Observação: Este projeto pode conter falhas, pois foi desenvolvido com o propósito principal de adquirir experiência prática.
 
 ## Demonstração
-[![Veja o vídeo](https://img.youtube.com/vi/bBv0Z0sMm6c/hqdefault.jpg)](https://www.youtube.com/watch?v=bBv0Z0sMm6c)
+![Demonstração do projeto](https://s6.ezgif.com/tmp/ezgif-6af2e15e3948a9.gif)
 
 ## Como usar
 
