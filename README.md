@@ -1,13 +1,14 @@
-# VerifIntegridade
+# Análise de integridade da memoria
 
-Projeto em C++ para verificação de integridade de arquivos no Windows.
+Com minhas experiências na área da engenharia reversa, percebi que muitas funções (como de autenticação, segurança) são fácilmente ignoradas com apenas um JMP, RET, ou NOP.
+Então decidi desenvolver um projeto que consiste em um monitoramente de algumas regiões específica da memória com o objetivo de detectar alterações usando memcmp e memcpy.
+
+Obs: Este projeto pode conter falhas, pois foi desenvolvido apenas para adquirir experiências.
 
 ## Demonstração
-
-[![Vídeo de Demonstração](https://img.youtube.com/vi/ID_DO_VIDEO/hqdefault.jpg)](https://www.youtube.com/watch?v=ID_DO_VIDEO)
+[![Veja o vídeo](https://img.youtube.com/vi/bBv0Z0sMm6c/hqdefault.jpg)](https://www.youtube.com/watch?v=bBv0Z0sMm6c)
 
 ## Como usar
 
-1. Compile com o Visual Studio
-2. Execute como administrador
-3. Escolha os arquivos para verificação
+Basta carregar a dll no momento em que seu software for executado.
+Lembre-se de carregar a dll com a arquitetura semelhante ao seu processo.
