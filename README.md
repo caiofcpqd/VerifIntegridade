@@ -6,7 +6,7 @@ Por isso, decidi desenvolver este projeto, que monitora regiões específicas da
 Observação: Este projeto pode conter falhas, pois foi desenvolvido com o propósito principal de adquirir experiência prática.
 
 ## Demonstração
-![Demonstração do projeto](https://s6.ezgif.com/tmp/ezgif-6af2e15e3948a9.gif)
+![Demonstração do projeto](https://i.imgur.com/rZlcu9k.gif)
 
 ## Como usar
 
